@@ -122,17 +122,17 @@
                 "name": "zip"
             }
         },
-      {
-        "id": "task-unzip",
-        "type": "ms.vss-distributed-task.task",
-        "targets": [
-          "ms.vss-distributed-task.tasks"
-        ],
-        "properties": {
-          "name": "unzip"
-        }
-      },
-      {
+        {
+            "id": "task-unzip",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "unzip"
+            }
+        },
+        {
             "id": "task-rollback",
             "type": "ms.vss-distributed-task.task",
             "targets": [
